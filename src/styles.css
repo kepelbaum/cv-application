@@ -24,5 +24,23 @@
 
 .output {
     grid-area: 1 / 2 / 1 / 3; 
-    background-color: lightgray;
+    background-color: lightgray;    
+}
+
+input {
+    width: 200px;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: yellow;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-style: italic;
 }
