@@ -1,1 +1,1 @@
-# cv-application
+A simple React CV application program.
