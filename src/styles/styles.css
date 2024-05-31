@@ -1,8 +1,9 @@
-* {
-    margin: 0,
-    padding: 0,
-    box-sizing: inherit;
-}
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
 
 .main {
     display: grid;
@@ -13,7 +14,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* align-items: center; */
 }
 
 .input {
@@ -43,4 +43,9 @@ button {
     border: 2px solid black;
     border-radius: 10px;
     font-style: italic;
+}
+
+.input, .output {
+    display: flex;
+    flex-direction: column;
 }
