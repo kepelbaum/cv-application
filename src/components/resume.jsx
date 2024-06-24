@@ -9,12 +9,12 @@ function Resume() {
     description: 'Delivered 42 hours of quality weekly lecture content to a diverse audience. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', empdate: '2018-2024'});
 
     function handleChange(e) {
-        let temp = current;
+        let temp = JSON.parse(JSON.stringify(current));
         temp[e.target.id] = e.target.value;
         setCurrent(temp);
     }
     function handleSubmit() {
-        let temp = current;
+        let temp = JSON.parse(JSON.stringify(current));
         setResume(temp);
     }
     return (
